@@ -6,7 +6,7 @@
     <title>Lgin Form</title>
     <link rel="stylesheet" href="style.css"/>
     
-     <script>
+    <script>
         function validateForm() {
         let x = document.forms["myForm"]["username"].value;
         let y = document.forms["myForm"]["password"].value;
@@ -18,8 +18,8 @@
         // else if(x == isInteger()){
         //     alert("it should be a charecter...")
         // }
-        else if(y == "" || y.length < 2 || y.length > 20){
-            alert("Password must be filled which is less than 20 and more than 2...")
+        else if(y == "" || y.length < 2 || y.length > 15){
+            alert("Password must be filled which is less than 15 and more than 2...")
             return false;
         }
         else if(x == "admin" || y == "abc123" ){

@@ -1,0 +1,9 @@
+{
+            "id": 1,
+            "bookname": "Datastructure and Algorithm",
+            "img":  "dsa.jpg",
+            "author":"Narasimma Karumachi",
+            "course": "MCA",
+            "price": 604,
+            "date" : "23 july 2024",
+        }

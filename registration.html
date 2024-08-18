@@ -7,45 +7,47 @@
    
 </head>
  
-<body >
+<body style="background-image: url(nw-bg.jpg);">
 
     <header>
-        <!-- <h2 class="logo">logo</h2> -->
+        
         <nav class="navigation">
             <a href="login.html">Login Here</a>
-            <!-- <a href="index.html">Home</a>
-            <a href="Addtocart.html">Add to Cart</a> -->
+            
         </nav>
     </header>
-        <!-- <nav class="navigation">
-            <a type="button" class="btnlogin-popup" href="form.php" style="background-color:#77975b;">Home</a>
-            <a type="button" class="btnlogin-popup" href="view.php" style="background-color:#77975b;">View</a>
-            
-        </nav> -->
+        
     
     <div class="container" style="margin-right: 62%; margin-left: 8%; margin-top: 5%;">
     <h2>Registration Form</h2>
     
-  <form action="insert.php" method="POST">
+  <form action="" id="registrationForm" method="POST">
 
     <label> Name</label>
-    <input type="text"  name="name" placeholder="Your name.." required>
+    <input type="text" id="name" name="name" placeholder="Your name.." >
+    <span id="nameError" class="error"></span> </br>
 
     <label>Regitration Number</label>
-    <input type="number" name="regd" placeholder="Your Registration number.." required>
+    <input type="number" id="regd" name="regd" placeholder="Your Registration number.." >
+    <span id="regdError" class="error"></span></br>
 
     <label>Email</label>
-    <input type="email" name="email" placeholder="Your Email.." required>
+    <input type="text" id="email" name="email" placeholder="Your Email.." >
+    <span id="emailError" class="error"></span></br>
 
     <label>Password</label>
-    <input type="password" name="password" placeholder="Your password.." required>
+    <input type="password" id="password" name="password" placeholder="Your password.." >
+    <span id="passwordError" class="error"></span></br>
 
-    <label>Course</label>
-    <input type="text" name="course" placeholder="Your course.." required>
+    <label>Phone</label>
+    <input type="text" id="phone" name="phone" placeholder="Your phone.." >
+    <span id="phoneError" class="error"></span></br>
     
     <input type="submit" name="submit" value="Submit">
 
   </form>
+
+  <script src="validate.js"></script>
 </div>
 
 </body>
