@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <input id="show" readonly>
+        <div id="btn">
+            <button class="operator" onclick="appendOnClick('+')"> + </button>
+            <button onclick="appendOnClick('7')"> 7 </button>
+            <button onclick="appendOnClick('8')"> 8 </button>
+            <button onclick="appendOnClick('9')"> 9 </button>
+            <button class="operator" onclick="appendOnClick('-')"> - </button>
+            <button onclick="appendOnClick('4')"> 4 </button>
+            <button onclick="appendOnClick('5')"> 5 </button>
+            <button onclick="appendOnClick('6')"> 6 </button>
+            <button class="operator" onclick="appendOnClick('*')"> * </button>
+            <button onclick="appendOnClick('1')"> 1 </button>
+            <button onclick="appendOnClick('2')"> 2 </button>
+            <button onclick="appendOnClick('3')"> 3 </button>
+            <button class="operator" onclick="appendOnClick('/')"> / </button>
+            <button onclick="appendOnClick('0')"> 0 </button>
+            <button onclick="appendOnClick('.')"> . </button>
+            <button onclick="calculate()">=</button>
+            <button class="operator" onclick="clearAll()">C</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
