@@ -44,7 +44,7 @@ $result = $conn->query($sql);
   <div class="navbar">
     <a href="index.php">Home</a>
     <a href="addtocart.php">Add to cart</a>
-    <a href="login.php">Login</a>
+    <!-- <a href="login.php">Login</a> -->
     <a href="logout.php">Logout</a>
   </div>
 

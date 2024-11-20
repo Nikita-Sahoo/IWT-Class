@@ -38,7 +38,7 @@ $course_result = $conn->query($course_query);
     
     <a href="index.php">Home</a>
     <a href="addtocart.php">Add to cart</a>
-    <a href="login.php">Login</a>
+    <!-- <a href="login.php">Login</a> -->
     <a href="logout.php">Logout</a>
 </div>
 
@@ -66,13 +66,14 @@ $course_result = $conn->query($course_query);
 
             <table>
                 <tr>
-                    <th>Date</th>
-                    <th>Book Name & Author</th>
-                    <th>Image</th>
-                    <th>Course</th>
-                    <th>Status</th>
-                    <th>Price</th>
-                    <th>Remove from cart</th>
+                    <th style="width: 50px;"> Date</th>
+                    <th style="width: 150px;">Book Name & Author</th>
+                    <th style="width: 10px;">Image</th>
+                    
+                    <th style="width: 20px;">Course</th>
+                    <th style="width: 20px;">Status</th>
+                    <th style="width: 50px;">Price</th>
+                    <th style="width: 50px;">Remove from cart</th>
                 </tr>
                 <?php
                 // Fetch and display each book's data
