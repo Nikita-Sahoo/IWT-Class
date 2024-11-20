@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="form_style.xsl"?>
+<form>
+    <fields>
+        <field>
+            <label>Full Name</label>
+            <type>text</type>
+            <name>full_name</name>
+            <placeholder>Enter your full name</placeholder>
+        </field>
+        <field>
+            <label>Email</label>
+            <type>email</type>
+            <name>email</name>
+            <placeholder>Enter your email</placeholder>
+        </field>
+        <field>
+            <label>Password</label>
+            <type>password</type>
+            <name>password</name>
+            <placeholder>Enter your password</placeholder>
+        </field>
+        <field>
+            <label>Gender</label>
+            <type>radio</type>
+            <name>gender</name>
+            <options>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </options>
+        </field>
+        <field>
+            <label>Country</label>
+            <type>dropdown</type>
+            <name>country</name>
+            <options>
+                <option>USA</option>
+                <option>India</option>
+                <option>Canada</option>
+                <option>Australia</option>
+            </options>
+        </field>
+        <field>
+            <label>Subscribe</label>
+            <type>checkbox</type>
+            <name>subscribe</name>
+            <value>Yes</value>
+        </field>
+    </fields>
+    <submit>Submit</submit>
+</form>
