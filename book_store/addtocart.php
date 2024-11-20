@@ -1,7 +1,7 @@
 <?php
 // Start the session
 session_start();
-include 'conn.php';
+include 'conn.php'; 
 
 // Check if the user is logged in
 if (!isset($_SESSION['user_id'])) {
